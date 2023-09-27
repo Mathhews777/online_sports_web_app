@@ -1,0 +1,12 @@
+<?php
+
+    $db_server = "127.0.0.2:3307";
+    $db_user = "root";
+    $db_pass = "";
+    $db_name = "online_registrations";
+    $conn = mysqli_connect($db_server, $db_user, $db_pass, $db_name);
+    
+    if (!$conn) {
+        die("something went wrong");
+    }
+?>
